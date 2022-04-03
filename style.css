@@ -99,5 +99,40 @@ p {
 .about-h1 {
   font-size: 64px;
   line-height: 80px;
-  margin-top: 120px;
+  margin-left: 130px;
+}
+.section {
+  margin-top: 150px;
+}
+.about-h2 {
+  font-size: 20px;
+  margin-left: 130px;
+  font-weight: bold;
+  color: black;
+  font-family: var(--default-font-family);
+}
+.about-p {
+  margin-left: 130px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  display: block;
+}
+.about-a {
+  margin-left: 130px;
+}
+@media (max-width: 576px) {
+  .section {
+    margin-top: 0;
+  }
+  .about-h2 {
+    display: block;
+    margin-left: 50px;
+  }
+  .about-p {
+    margin-left: 50px;
+  }
+  .about-a {
+    margin-bottom: 20px;
+  }
 }
