@@ -96,3 +96,8 @@ p {
     text-align: center;
   }
 }
+.about-h1 {
+  font-size: 64px;
+  line-height: 80px;
+  margin-top: 120px;
+}
