@@ -104,6 +104,9 @@ p {
 .section {
   margin-top: 150px;
 }
+.work-section {
+  margin-top: 150px;
+}
 .about-h2 {
   font-size: 20px;
   margin-left: 130px;
@@ -135,4 +138,21 @@ p {
   .about-a {
     margin-bottom: 20px;
   }
+}
+.work-h1 {
+  font-size: 64px;
+  line-height: 80px;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+.work-h3 {
+  font-family: var(--default-font-family);
+  font-size: 24px;
+  line-height: 1.5;
+  margin-top: 20px;
+}
+.work-p {
+  opacity: 0.7;
+  font-size: 14px;
+  margin-top: -10px;
 }
