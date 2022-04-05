@@ -29,6 +29,10 @@ h2 {
   font-size: 64px;
 }
 
+h3 {
+  font-size: 48px;
+}
+
 p {
   font-weight: normal;
   font-size: 16px;
@@ -38,7 +42,7 @@ p {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .hero p {
@@ -53,6 +57,35 @@ p {
   font-weight: normal;
   line-height: 1.5;
   font-size: 24px;
+}
+
+.content-container {
+  padding: 60px 20px;
+}
+
+.content h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.content h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+
+  font-family: var(--default-font-family);
+}
+
+.content p {
+  font-size: 14px;
+}
+
+.content {
+  margin: 30px;
 }
 
 .btn-branding {
@@ -77,114 +110,97 @@ p {
   padding: 120px 60px;
 }
 
+.logo {
+  max-height: 40px;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
+
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background: var(--branding-color);
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
-    line-height: 2;
+    line-height: 1.5;
   }
 
   h2 {
     font-size: 44px;
   }
 
-  .hero {
-    padding: 80px 20px;
+  h3 {
+    font-size: 26px;
+  }
+
+  .content {
+    text-align: center;
+    padding: 0;
   }
 
   .project-desciption {
     padding: 0;
     text-align: center;
   }
-}
-.about-h1 {
-  font-size: 64px;
-  line-height: 80px;
-  margin-left: 130px;
-}
-.section {
-  margin-top: 150px;
-}
-.work-section {
-  margin-top: 150px;
-}
-.about-h2 {
-  font-size: 20px;
-  margin-left: 130px;
-  font-weight: bold;
-  color: black;
-  font-family: var(--default-font-family);
-}
-.about-p {
-  margin-left: 130px;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 30px;
-  display: block;
-}
-.about-a {
-  margin-left: 130px;
-}
-@media (max-width: 576px) {
-  .section {
-    margin-top: 0;
-  }
-  .about-h2 {
-    display: block;
-    margin-left: 50px;
-  }
-  .about-p {
-    margin-left: 50px;
-  }
-  .about-a {
-    margin-bottom: 20px;
-  }
-}
-.work-h1 {
-  font-size: 64px;
-  line-height: 80px;
-  margin-left: 40px;
-  margin-top: 30px;
-}
-.work-h3 {
-  font-family: var(--default-font-family);
-  font-size: 24px;
-  line-height: 1.5;
-  margin-top: 20px;
-}
-.work-p {
-  opacity: 0.7;
-  font-size: 14px;
-  margin-top: -10px;
-}
-.contact-h1 {
-  font-size: 64px;
-  line-height: 80px;
-}
-.contact-h3 {
-  font-size: 24px;
-  line-height: 1.5;
-  font-family: var(--default-font-family);
-}
-.logo {
-  max-height: 40px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-.list {
-  list-style: none;
-  margin-top: 30px;
-  margin-bottom: 20px;
-}
-li {
-  margin-right: 20px;
-}
-.list-link {
-  text-decoration: none;
-  color: black;
-}
-.list-link:hover {
-  color: var(--branding-color);
-}
-.li-1 {
-  color: var(--branding-color);
 }
