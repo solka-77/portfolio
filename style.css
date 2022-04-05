@@ -165,3 +165,26 @@ p {
   line-height: 1.5;
   font-family: var(--default-font-family);
 }
+.logo {
+  max-height: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.list {
+  list-style: none;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+li {
+  margin-right: 20px;
+}
+.list-link {
+  text-decoration: none;
+  color: black;
+}
+.list-link:hover {
+  color: var(--branding-color);
+}
+.li-1 {
+  color: var(--branding-color);
+}
